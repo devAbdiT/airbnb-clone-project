@@ -1,4 +1,4 @@
-Here's the content for your README.md file under the "UI/UX Design Planning" section:
+
 
 # UI/UX Design Planning
 
@@ -41,3 +41,29 @@ A user-friendly design is critical in booking systems for several reasons:
 8. **Reduces Support Burden**: Intuitive design minimizes user errors and support inquiries
 
 The design prioritizes simplicity while maintaining all necessary functionality to create a frictionless booking experience that converts visitors into confirmed guests.
+
+# Project Roles and Responsibilities
+
+## Team Structure and Key Roles
+
+| Role | Key Responsibilities | Contribution to Project Success |
+|------|---------------------|--------------------------------|
+| **Project Manager** | - Create and maintain project timeline<br>- Coordinate between different teams<br>- Manage resources and budget<br>- Risk management and mitigation<br>- Stakeholder communication | Ensures project stays on track, within budget, and meets business objectives through effective coordination and planning |
+| **Frontend Developers** | - Implement responsive UI components<br>- Ensure cross-browser compatibility<br>- Integrate with backend APIs<br>- Optimize frontend performance<br>- Implement user interactions | Creates engaging, intuitive user interfaces that provide excellent user experience and drive conversion |
+| **Backend Developers** | - Design and develop APIs<br>- Implement business logic<br>- Database design and optimization<br>- Server configuration and maintenance<br>- Security implementation | Builds robust, scalable server-side architecture that supports application functionality and data management |
+| **UI/UX Designers** | - Create wireframes and prototypes<br>- Design user interface elements<br>- Conduct user research and testing<br>- Establish design system and guidelines<br>- Ensure accessibility compliance | Designs intuitive, visually appealing interfaces that enhance user satisfaction and streamline the booking process |
+| **QA/Testers** | - Create test plans and cases<br>- Execute manual and automated testing<br>- Identify and report bugs<br>- Performance and security testing<br>- User acceptance testing coordination | Ensures product quality, reliability, and performance through comprehensive testing at all development stages |
+| **DevOps Engineers** | - CI/CD pipeline setup and maintenance<br>- Infrastructure provisioning and management<br>- Monitoring and logging implementation<br>- Deployment automation<br>- Environment management | Enables efficient, reliable deployment processes and maintains stable, scalable production infrastructure |
+| **Product Owner** | - Define product vision and roadmap<br>- Create and prioritize user stories<br>- Manage product backlog<br>- Make feature decisions<br>- Validate delivered functionality | Bridges business and technical teams to ensure product meets market needs and delivers value to users |
+| **Scrum Master** | - Facilitate Scrum ceremonies<br>- Remove team impediments<br>- Coach team on Agile practices<br>- Track team velocity and metrics<br>- Foster collaborative environment | Promotes Agile principles, facilitates smooth workflow, and helps team maintain sustainable pace and continuous improvement |
+
+## Collaboration Framework
+
+All roles collaborate through:
+- Daily stand-up meetings
+- Sprint planning and review sessions
+- Regular cross-functional design and technical discussions
+- Shared documentation and communication channels
+- Continuous feedback loops between design, development, and testing
+
+This structured approach ensures clear accountability while maintaining flexibility for collaborative problem-solving across all project phases.
