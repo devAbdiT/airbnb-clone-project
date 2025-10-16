@@ -67,3 +67,87 @@ All roles collaborate through:
 - Continuous feedback loops between design, development, and testing
 
 This structured approach ensures clear accountability while maintaining flexibility for collaborative problem-solving across all project phases.
+
+
+# UI Component Patterns
+
+## Overview
+This section documents the reusable UI components that will be implemented to ensure consistency, maintainability, and scalability across the property booking application.
+
+## Core Components
+
+### 1. Navbar
+**Purpose**: Primary navigation component for site-wide navigation and user authentication state.
+
+**Features**:
+- Responsive logo and branding
+- Navigation links (Home, Browse, Favorites, Contact)
+- User authentication section (Login/Register or User Profile dropdown)
+- Mobile-responsive hamburger menu
+- Search bar integration (optional)
+
+**Props**:
+- `user` (object): Current user data
+- `isLoggedIn` (boolean): Authentication state
+- `onSearch` (function): Search callback handler
+
+### 2. Property Card
+**Purpose**: Displays property information in a compact, visually appealing format for listing views.
+
+**Features**:
+- Property image with hover effects
+- Basic info (title, location, price)
+- Rating and review count display
+- Favorite/heart icon for saving properties
+- "Book Now" call-to-action button
+- Badges for special features (e.g., "Popular", "Discount")
+
+**Props**:
+- `property` (object): Property data object
+- `onBook` (function): Booking action handler
+- `onFavorite` (function): Favorite toggle handler
+- `isFavorite` (boolean): Favorite state
+
+### 3. Footer
+**Purpose**: Site-wide footer with important links and information.
+
+**Features**:
+- Company information and logo
+- Quick links (About, Contact, FAQ, Privacy Policy)
+- Social media links
+- Newsletter subscription form
+- Contact information and address
+- Copyright notice
+
+**Props**:
+- `companyInfo` (object): Company details
+- `socialLinks` (array): Social media URLs
+- `quickLinks` (array): Navigation links
+
+## Additional Planned Components
+
+### 4. Search Filters
+**Purpose**: Advanced filtering component for property search results.
+
+### 5. Booking Form
+**Purpose**: Date selection and booking confirmation form.
+
+### 6. Review Card
+**Purpose**: Displays user reviews and ratings for properties.
+
+### 7. Image Gallery
+**Purpose**: Interactive image display for property details.
+
+### 8. Price Breakdown
+**Purpose**: Transparent pricing display with cost calculations.
+
+## Benefits of This Component Approach
+
+1. **Consistency**: Uniform design language across all pages
+2. **Reusability**: Components can be used across multiple views
+3. **Maintainability**: Centralized styling and logic updates
+4. **Scalability**: Easy to add new features and pages
+5. **Team Efficiency**: Parallel development with clear interfaces
+6. **Testing**: Isolated component testing capabilities
+
+Each component will follow a mobile-first approach and include accessibility features to ensure compliance with WCAG guidelines.
